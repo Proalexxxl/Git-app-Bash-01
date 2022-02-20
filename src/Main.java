@@ -2,6 +2,7 @@ public class Main {
 
     public static void main (String[] args) {
         System.out.println("My Super App!");
+        System.out.println("App calculation");
 
         int a = 5;
         int b = 7;

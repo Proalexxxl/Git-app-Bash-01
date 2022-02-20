@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main (String[] args) {
-        System.out.println("My Super App!");
         System.out.println("App calculation");
+        System.out.println("Version 1.0");
 
         int a = 5;
         int b = 7;

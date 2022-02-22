@@ -15,6 +15,12 @@ public class Main {
 
         int e = subtraction(a, b);
         System.out.println(e);
+
+        double x = a;
+        double y = b;
+
+        double f = division(x, y);
+        System.out.println(f);
     }
 
     private static int add(int a, int b) {
@@ -27,5 +33,9 @@ public class Main {
 
     private static int subtraction(int a, int b) {
         return a - b;
+    }
+
+    private static double division(double a, double b) {
+        return a / b;
     }
 }
